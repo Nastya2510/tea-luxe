@@ -1,0 +1,15 @@
+
+
+/* BASE */
+@import "./base.css";
+
+/* SECTIONS */
+@import "./header-menu.css";
+@import "./top.css";
+@import "./assortiment.css";
+@import "./reviews.css";
+@import "./main-blog.css";
+@import "./mailing-list.css";
+@import "./prioritise.css";
+@import "./reviews.css";
+@import "./footer.css";

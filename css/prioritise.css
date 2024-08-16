@@ -1,0 +1,26 @@
+/* ---- prioritise ---- */
+
+.prioritise {
+    padding: 150px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.prioritise__list{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 49px;
+}
+
+.prioritise__title{
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.prioritise__text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

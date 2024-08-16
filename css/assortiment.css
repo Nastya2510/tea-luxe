@@ -1,0 +1,28 @@
+/* ---- assortiment ---- */
+
+.assortiment {
+    margin-bottom: 150px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.assortiment__title{
+    margin-top: 120px;
+}
+
+.assortiment__list {
+    text-align: center;
+    display: flex;
+    gap: 0 40px;
+}
+
+.assortiment__img{
+    max-width: 208px;
+    max-height: 208px;
+    width: 100%;
+}
+
+.assortiment__name {
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}

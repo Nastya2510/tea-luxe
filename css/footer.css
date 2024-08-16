@@ -1,0 +1,118 @@
+/* ---- footer ---- */
+
+.footer {
+    padding: 100px 0 20px;
+    background-color: #F7F2EA;
+}
+
+.footer__inner{
+    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 40px;
+}
+
+.footer__bottom {
+    display: flex;
+}
+
+.footer__copy {
+    font-family: "Cormorant Garamond", serif;
+    margin-right: 192px;
+    font-size: 16px;
+}
+
+.partners-logo {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+}
+
+.footer__products-title,
+.footer__company-title,
+.footer__contacts-title {
+    font-size: 24px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.footer__products-item,
+.footer__company-item{
+    margin-bottom: 20px;
+}
+
+.footer__blockquote-text{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.footer__blockquote-author{
+    font-size: 12px;
+    font-style: normal;
+}
+
+.footer__contacts-title{
+    font-weight: 400;
+}
+
+.footer__contacts-text{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer__nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__nav-logo{
+    margin-right: 40px;
+}
+
+.footer__nav-phone,
+.footer__nav-email {
+    font-size: 13px;
+    position: relative;
+    padding-left: 32px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer__nav-phone::before,
+.footer__nav-email::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 16px;
+    top: 2px;
+    background-image: url(../images/footer/icon/email-icon.svg);
+}
+
+.footer__nav-phone::before{
+    background: url(../images/footer/icon/phone-icon.svg);
+    width: 21px;
+    height: 21px;
+    
+}
+
+.footer__nav-contacts{
+    margin-top: 20px;
+}
+
+.footer__social{
+    margin-top: 40px;
+    margin-left: 97px;
+}
+
+.footer__social-list{
+     display: flex;
+     align-items: center;
+     gap: 0 20px;
+}
+
+.footer__social-link{
+    display: grid;
+}

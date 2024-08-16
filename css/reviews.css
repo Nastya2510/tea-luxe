@@ -1,0 +1,25 @@
+/* ---- reviews ---- */
+.reviews {
+    background-color: #F7F2EA;
+    padding: 60px 0;
+}
+
+.reviews__list{
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+}
+
+.reviews__item {
+    flex-basis: 280px;
+}
+
+.reviews__text {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.reviews__name {
+    font-weight: 600;
+}
